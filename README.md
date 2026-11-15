@@ -1,2 +1,3 @@
-# MagnAir-descargas
-MagnAir: app para Android, Windows y Linux y firmware del módulo WiFi.
+# MagnAir — descargas
+Las versiones están en Releases (a la derecha).
+Creado por Andrés Londero · andreslondero@gmail.com
