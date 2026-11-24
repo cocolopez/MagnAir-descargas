@@ -8,6 +8,11 @@ Formato: una sección `## X.Y.Z (fecha)` por versión, la más nueva arriba; el 
 `MAGNAIR_VERSION` en `src/config.h` sin "MagnAir-". Dentro, viñetas agrupadas en **Módulo WiFi**,
 **Página** y **Apps** (solo los grupos que cambiaron).
 
+## 1.6.1 (2026-11-24)
+
+**Módulo WiFi**
+- Arreglado: al pasar a la SD un archivo con nombre largo, la impresora se reiniciaba justo al recibirlo y el archivo no quedaba. Ahora el módulo manda el nombre recortado (con la extensión), y en la SD queda con el mismo nombre corto de siempre. Conviene también el firmware mm2 nuevo, que trae el mismo arreglo del lado de la impresora.
+
 ## 1.6.0 (2026-11-15)
 
 **Módulo WiFi y página**
